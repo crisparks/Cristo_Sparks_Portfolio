@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: radial-gradient(circle, rgb(167, 145, 167), rgb(56, 3, 77) );
+}
+   
+#header{
+    min-height: 80px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+}
+#wrapper{
+    width: 950px;
+    background: rgba(0, 0, 0, 0); /* Green background with 30% opacity */
+    margin: 0px auto;
+    padding: 0px;
+}
+#intro{
+    min-height: 300px;
+    width: 430px;
+    display: inline-block;
+    background-image: linear-gradient(to right,whitesmoke , rgb(216, 175, 216));
+    margin: 20px 0px 0px 0px;
+    vertical-align: top;
+}
+#subcontents1{
+    height: 547px;
+    width: 300px;
+    background-image: linear-gradient(to right,whitesmoke , rgb(216, 175, 216));
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 0px;
+}
+#subcontents2{
+    height: 547px;
+    width: 300px;
+    background-image: linear-gradient(to right,whitesmoke , rgb(216, 175, 216));
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 21px
+}
+#subcontents3{
+    height: 547px;
+    width: 300px;
+    background-image: linear-gradient(to right,whitesmoke , rgb(216, 175, 216));
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 0px;
+}
+#advertisement{
+    min-height: 80px;
+    background-color: whitesmoke;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+/*start of text styles*/
+a{
+    color: black;
+}
+.heading{
+    width: 430px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 20px;
+}
+.heading2{
+    width: 430px;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 20px;
+}
+#me{
+    height: 292px;
+    display: inline-block;
+    margin: 20px 24px 0px 0px;
+    border: solid 4px rgb(171, 170, 175);
+    border-image-width: 10px;
+}
+.box_header {
+    height: 22px;
+    background: linear-gradient(rgb(171, 170, 175), rgb(135, 133, 147), rgb(171, 170, 175));
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    padding: 5px;
+}
+.details {
+    padding: 5px;
+}
+.projects{
+    width: 299px;
+}
+.icons {
+    padding: 10px
+}
+.icons img{
+    display: inline-block;
+    width: 40px;
+    padding: 0px 5px;
+}
+.column_button{
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+.column_button input{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px grey;
+    outline: none;
+}
+#contact{
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+    vertical-align: bottom;
+}
+#direct_contact{
+    vertical-align: top;
+    text-align: center;
+}
+#contact img{
+    width: 20px;
+}
+
